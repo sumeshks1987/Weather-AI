@@ -1,5 +1,5 @@
 'use strict'
-
+app.use(require('browser-logger')())
 const getCurrentWeather = require('./lib/getCurrentWeather')
 
 exports.handle = function handle(client) {
